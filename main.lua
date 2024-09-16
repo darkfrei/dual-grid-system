@@ -15,14 +15,6 @@ local grid = DGS.newGrid (12)
 
 DGS.addLayer (grid, texture)
 
---DGS.addBlock (grid, 1, 1, 1)
---DGS.addBlock (grid, 2, 2, 1)
---DGS.addBlock (grid, 2, 3, 1)
---DGS.addBlock (grid, 2, 4, 1)
---DGS.addBlock (grid, 3, 4, 1)
---DGS.addBlock (grid, 5, 4, 1)
-DGS.addBlock (grid, 13, 12, 2)
-
 for x = 1, 13 do
 	for y = 1, 12 do
 		if math.random () < 0.2 then
