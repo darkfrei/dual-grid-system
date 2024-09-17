@@ -15,10 +15,10 @@ See:
 -- main.lua
 local DGS = require ('src.dual-grid-system')
 
-local grid = DGS.newGrid (12)
+local grid = DGS.newGrid (12) -- 12 pixeld per tile
 
 function love.load ()
-  local texture = love.graphics.newImage('dual-grid-12.png')
+  local texture = love.graphics.newImage('dual-grid-12.png') -- corresponding image as in file
   DGS.addLayer (grid, texture)
 
   DGS.addBlock (grid, 2, 1, 1) -- grid, x, y, layer
